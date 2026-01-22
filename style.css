@@ -334,12 +334,11 @@ h4,
 
 /* --- Intro Section (Cards) --- */
 .intro {
-    padding: 100px 0;
-    /* mostly black w a tint of purple */
-    background: linear-gradient(180deg, #05040a 50%, #1a0b2e 100%);
+    padding: 120px 0;
+    /* smooth fade from hero, into purple, then to black */
+    background: linear-gradient(180deg, transparent 0%, #1a0b2e 30%, #1a0b2e 70%, #05040a 100%);
     position: relative;
     z-index: 2;
-    /* Ensure it covers the fixed bg */
 }
 
 .section-title {
@@ -419,9 +418,9 @@ h4,
 
 /* --- Changes Section --- */
 .changes {
-    padding: 80px 0;
-    /* mostly black w a bit of orange */
-    background: linear-gradient(180deg, #05040a 50%, #1a0f05 100%);
+    padding: 120px 0;
+    /* smooth fade from black, into deep orange, then to black */
+    background: linear-gradient(180deg, #05040a 0%, #1a0f05 30%, #1a0f05 70%, #05040a 100%);
     position: relative;
     z-index: 2;
 }
@@ -491,9 +490,9 @@ h4,
 
 /* --- Method Section --- */
 .method {
-    padding: 100px 0;
-    /* black to deep navy */
-    background: linear-gradient(180deg, #05040a 0%, #170F40 100%);
+    padding: 120px 0;
+    /* black to deep navy smooth fade */
+    background: linear-gradient(180deg, #05040a 0%, #170F40 30%, #170F40 70%, #05040a 100%);
     position: relative;
     z-index: 2;
 }
@@ -837,9 +836,9 @@ footer {
 
 /* --- Why We Do This Section --- */
 .why-do-this {
-    padding: 110px 0;
-    /* black to deep charcoal/gold tint */
-    background: linear-gradient(45deg, #05040a 0%, #090045 100%);
+    padding: 120px 0;
+    /* black to deep charcoal/gold smooth fade */
+    background: linear-gradient(180deg, #05040a 0%, #090045 30%, #090045 70%, #05040a 100%);
     position: relative;
     z-index: 2;
 }
@@ -1048,10 +1047,10 @@ footer {
 
 /*---Transformation/TestimonialsSection---*/
 .transformation {
-    padding: 60px 0;
-    /* Reduced padding */
-    /* black to deep teal */
-    background: linear-gradient(135deg, #020105 0%, #001521 100%);
+    padding: 100px 0;
+    /* Restored padding for better fade space */
+    /* black to deep teal smooth transition */
+    background: linear-gradient(180deg, #05040a 0%, #001521 30%, #001521 70%, #05040a 100%);
     position: relative;
     z-index: 2;
 }
@@ -1161,10 +1160,9 @@ footer {
 
 /* --- Stack / "What You Get" Section --- */
 .stack-section {
-    padding: 60px 0 40px;
-    /* Reduced padding top/bottom */
-    /* black to deep indigo */
-    background: linear-gradient(90deg, #050505 0%, #12092E 100%);
+    padding: 100px 0;
+    /* black to deep indigo smooth transition */
+    background: linear-gradient(180deg, #05040a 0%, #12092E 30%, #12092E 70%, #05040a 100%);
     color: #fff;
     text-align: center;
 }
@@ -1429,9 +1427,9 @@ footer {
 
 /* --- Guarantee Section --- */
 .guarantee {
-    padding: 100px 0;
-    /* black w a bit of purple */
-    background: linear-gradient(180deg, #05040a 0%, #11033a 100%);
+    padding: 120px 0;
+    /* black to deep purple smooth fade */
+    background: linear-gradient(180deg, #05040a 0%, #11033a 30%, #11033a 70%, #05040a 100%);
     z-index: 2;
     position: relative;
 }
@@ -1494,9 +1492,9 @@ footer {
 
 /* --- FAQ Section --- */
 .faq {
-    padding: 40px 0 30px;
-    /* black w a bit of forest green */
-    background: linear-gradient(225deg, #000000 0%, #0f0122 100%);
+    padding: 100px 0;
+    /* black to deep green/indigo smooth fade */
+    background: linear-gradient(180deg, #05040a 0%, #0f0122 30%, #0f0122 70%, #05040a 100%);
     color: #fff;
     position: relative;
     z-index: 2;
@@ -1639,9 +1637,9 @@ footer {
 
 /* --- Final Summary Section --- */
 .final-summary {
-    padding: 120px 0;
-    /* black to deep blue */
-    background: linear-gradient(270deg, #000000 0%, #000930 100%);
+    padding: 150px 0;
+    /* black to deep blue smooth fade */
+    background: linear-gradient(180deg, #05040a 0%, #000930 40%, #000930 100%);
     position: relative;
     z-index: 2;
     overflow: hidden;
